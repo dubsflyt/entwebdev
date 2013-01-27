@@ -89,18 +89,22 @@ first child of the left and right table columns */
 .page
 {
     width: 960px;
-    background-color: #fff;
+    background-color: #F5F5F5;
     margin: 20px auto 0px auto;
     border: 1px solid #496077;
+    color: #000000;
 }
-
 .header
 {
     position: relative;
     margin: 0px;
     padding: 0px;
-    background: #4b6c9e;
-    width: 100%;
+    background: #F5F5F5;
+    width: 99%;
+    color: #000000;
+    top: 1px;
+    left: 4px;
+    height: 93px;
 }
 
 .header h1

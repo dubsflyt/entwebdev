@@ -11,11 +11,13 @@
 <body>
     <form runat="server">
     <div class="page">
+        <div class="logo">
+        <img alt="" src="logoUniversityGreenwich2.jpg" />
+        </div>
         <div class="header">
             <div class="title">
                 <h1>
-                    My ASP.NET Application
-                </h1>
+                    <span class="header">University Of Greenwich Teachmat System</span></h1>
             </div>
             <div class="loginDisplay">
                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
@@ -37,6 +39,9 @@
                 </asp:Menu>
             </div>
         </div>
+
+        
+        
         <div class="main">
             <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
         </div>
