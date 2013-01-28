@@ -16,7 +16,7 @@ namespace COMP1640Coursework
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Label1.Text = "Button has been clicked! again";
+            Label1.Text = "Button has been clicked! again again";
         }
     }
 }
